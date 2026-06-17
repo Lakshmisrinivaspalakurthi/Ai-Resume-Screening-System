@@ -5,4 +5,5 @@ model = SentenceTransformer(
 )
 
 def generate_embedding(text):
+
     return model.encode(text)
